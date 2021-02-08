@@ -18,7 +18,7 @@ public class TestConnect {
         String JDBC_User = properties.getProperty("JDBC_User");
         String JDBC_Passwd = properties.getProperty("JDBC_Passwd");
         try(Connection conn = DriverManager.getConnection(JDBC_Url,JDBC_User,JDBC_Passwd)){
-            Statement a = conn.createStatement();
+            PreparedStatement a = conn.prepareStatement("select * from jobs");
             ResultSet res = a.executeQuery("select * from jobs");
             while(res.next()){
                 System.out.println(res.getString(1));

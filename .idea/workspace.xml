@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9197f4b0-3a9b-4262-9f72-304250448951" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.23.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day1/src/jdbc/TestConnect.java" beforeDir="false" afterPath="$PROJECT_DIR$/day1/src/jdbc/TestConnect.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +123,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1612783450187</updated>
-      <workItem from="1612783451343" duration="4322000" />
+      <workItem from="1612783451343" duration="5978000" />
     </task>
     <servers />
   </component>
@@ -150,22 +150,22 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="382" y="69" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1366.738@0.0.1366.738" timestamp="1612785290770" />
-    <state width="1313" height="133" key="GridCell.Tab.0.bottom" timestamp="1612786800019">
+    <state width="1313" height="133" key="GridCell.Tab.0.bottom" timestamp="1612789876682">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1313" height="133" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1612786800019" />
-    <state width="1313" height="133" key="GridCell.Tab.0.center" timestamp="1612786800018">
+    <state width="1313" height="133" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1612789876682" />
+    <state width="1313" height="133" key="GridCell.Tab.0.center" timestamp="1612789876682">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1313" height="133" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1612786800018" />
-    <state width="1313" height="133" key="GridCell.Tab.0.left" timestamp="1612786800018">
+    <state width="1313" height="133" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1612789876682" />
+    <state width="1313" height="133" key="GridCell.Tab.0.left" timestamp="1612789876682">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1313" height="133" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1612786800018" />
-    <state width="1313" height="133" key="GridCell.Tab.0.right" timestamp="1612786800018">
+    <state width="1313" height="133" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1612789876682" />
+    <state width="1313" height="133" key="GridCell.Tab.0.right" timestamp="1612789876682">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1313" height="133" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1612786800018" />
+    <state width="1313" height="133" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1612789876682" />
     <state x="70" y="0" key="SettingsEditor" timestamp="1612785367200">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
