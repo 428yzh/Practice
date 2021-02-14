@@ -21,11 +21,15 @@
   <component name="ChangeListManager">
     <list default="true" id="9197f4b0-3a9b-4262-9f72-304250448951" name="默认更改列表" comment="">
       <change beforePath="$PROJECT_DIR$/day1/src/jdbc/TestConnect.java" beforeDir="false" afterPath="$PROJECT_DIR$/day1/src/jdbc/TestConnect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/day1/jdbc/TestConnect.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/day1/jdbc/TestConnect.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -50,7 +54,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/day1/src" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -63,24 +67,15 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\idea-workSpace\Practice\lib" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\idea-workSpace\Practice\lib" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\idea-workSpace\Practice\day1\src" />
+      <recent name="D:\idea-workSpace\Practice\lib" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.TestConnect">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
-      <module name="Practice" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Jdbc_cru.testQuery">
     <configuration name="TestConnect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="jdbc.TestConnect" />
       <module name="day1" />
@@ -94,24 +89,97 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Jdbc_cru.change" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="day1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jdbc_cru.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jdbc_cru" />
+      <option name="MAIN_CLASS_NAME" value="jdbc_cru.Jdbc_cru" />
+      <option name="METHOD_NAME" value="change" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Jdbc_cru.insertBlob" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="day1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jdbc_cru.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jdbc_cru" />
+      <option name="MAIN_CLASS_NAME" value="jdbc_cru.Jdbc_cru" />
+      <option name="METHOD_NAME" value="insertBlob" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Jdbc_cru.testQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="day1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jdbc_cru.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jdbc_cru" />
+      <option name="MAIN_CLASS_NAME" value="jdbc_cru.Jdbc_cru" />
+      <option name="METHOD_NAME" value="testQuery" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Jdbc_cru.testQueryForJobs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="day1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jdbc_cru.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jdbc_cru" />
+      <option name="MAIN_CLASS_NAME" value="jdbc_cru.Jdbc_cru" />
+      <option name="METHOD_NAME" value="testQueryForJobs" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.TestConnect" />
+      <item itemvalue="JUnit.Jdbc_cru.change" />
+      <item itemvalue="JUnit.Jdbc_cru.insertBlob" />
+      <item itemvalue="JUnit.Jdbc_cru.testQueryForJobs" />
+      <item itemvalue="JUnit.Jdbc_cru.testQuery" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Jdbc_cru.testQuery" />
+        <item itemvalue="JUnit.Jdbc_cru.testQueryForJobs" />
+        <item itemvalue="JUnit.Jdbc_cru.insertBlob" />
         <item itemvalue="Application.TestConnect" />
+        <item itemvalue="JUnit.Jdbc_cru.change" />
       </list>
     </recent_temporary>
   </component>
@@ -123,7 +191,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1612783450187</updated>
-      <workItem from="1612783451343" duration="5978000" />
+      <workItem from="1612783451343" duration="8140000" />
+      <workItem from="1612842925292" duration="24540000" />
     </task>
     <servers />
   </component>
@@ -140,43 +209,82 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="70" y="0" key="#Project_Structure" timestamp="1612785646918">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="70" y="0" key="#Project_Structure/0.0.1366.738@0.0.1366.738" timestamp="1612785646918" />
+    <state x="441" y="4" key="#com.intellij.ide.util.MemberChooser" timestamp="1613118680124">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="441" y="4" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1613118680124" />
+    <state x="426" y="229" width="513" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1612866586417">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="426" y="229" width="513" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.738@0.0.1366.738" timestamp="1612866586417" />
     <state x="382" y="69" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1612785290770">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="382" y="69" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1366.738@0.0.1366.738" timestamp="1612785290770" />
-    <state width="1313" height="133" key="GridCell.Tab.0.bottom" timestamp="1612789876682">
+    <state width="1313" height="167" key="GridCell.Tab.0.bottom" timestamp="1613281172056">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1313" height="133" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1612789876682" />
-    <state width="1313" height="133" key="GridCell.Tab.0.center" timestamp="1612789876682">
+    <state width="1313" height="167" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1613281172056" />
+    <state width="1313" height="167" key="GridCell.Tab.0.center" timestamp="1613281172056">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1313" height="133" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1612789876682" />
-    <state width="1313" height="133" key="GridCell.Tab.0.left" timestamp="1612789876682">
+    <state width="1313" height="167" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1613281172056" />
+    <state width="1313" height="167" key="GridCell.Tab.0.left" timestamp="1613281172056">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1313" height="133" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1612789876682" />
-    <state width="1313" height="133" key="GridCell.Tab.0.right" timestamp="1612789876682">
+    <state width="1313" height="167" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1613281172056" />
+    <state width="1313" height="167" key="GridCell.Tab.0.right" timestamp="1613281172056">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1313" height="133" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1612789876682" />
-    <state x="70" y="0" key="SettingsEditor" timestamp="1612785367200">
+    <state width="1313" height="167" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1613281172056" />
+    <state width="1313" height="211" key="GridCell.Tab.1.bottom" timestamp="1613119225926">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="70" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1612785367200" />
+    <state width="1313" height="211" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1613119225926" />
+    <state width="1313" height="211" key="GridCell.Tab.1.center" timestamp="1613119225926">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1313" height="211" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1613119225926" />
+    <state width="1313" height="211" key="GridCell.Tab.1.left" timestamp="1613119225926">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1313" height="211" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1613119225926" />
+    <state width="1313" height="211" key="GridCell.Tab.1.right" timestamp="1613119225926">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1313" height="211" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1613119225926" />
+    <state x="70" y="0" key="SettingsEditor" timestamp="1612867241965">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="70" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1612867241965" />
     <state x="373" y="278" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1612785346749">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="373" y="278" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1366.738@0.0.1366.738" timestamp="1612785346749" />
-    <state x="0" y="0" key="new project wizard" timestamp="1612785140963">
+    <state x="119" y="46" width="1128" height="659" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1613118713437">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="0" y="0" key="new project wizard/0.0.1366.738@0.0.1366.738" timestamp="1612785140963" />
+    <state x="119" y="46" width="1128" height="659" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.738@0.0.1366.738" timestamp="1613118713437" />
+    <state x="-184" y="142" width="1366" height="596" key="new project wizard" timestamp="1613113698257">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="-184" y="142" width="1366" height="596" key="new project wizard/0.0.1366.738@0.0.1366.738" timestamp="1613113698257" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="7" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
