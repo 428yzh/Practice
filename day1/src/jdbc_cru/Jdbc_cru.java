@@ -94,11 +94,13 @@ public class Jdbc_cru {
         System.out.println(ps.executeUpdate());
     }
     @Test
-    public void testQueryForJobs(){
+    public void testQueryForJobs() throws IOException, SQLException {
+        Connection conn = null;
         QueryForJobs queryForJobs = QueryForJobs.getInstance();
         String sql = "select * from jobs where job_id=?";
         try {
-            Jobs job = queryForJobs.queryJobs(sql, "AC_MGR");
+            conn = Jdbc_util.getConnect();
+            Jobs job = queryForJobs.queryJobs(conn,sql, "AC_MGR");
             System.out.println(job);
         }catch(Exception e){
             e.printStackTrace();
@@ -106,13 +108,35 @@ public class Jdbc_cru {
     }
     @Test
     public void testQuery(){
+        Connection conn = null;
         QueryForJobs queryForJobs = QueryForJobs.getInstance();
         String sql = "select count(*) from jobs";
         try{
-            Long data = (Long) queryForJobs.query(sql);
+            conn = Jdbc_util.getConnect();
+            Long data = (Long) queryForJobs.query(conn,sql);
             System.out.println(data);
         }catch(Exception e){
             e.printStackTrace();
+        }
+    }
+
+    @Test
+    public void testTx() throws SQLException {
+        Connection conn = null;
+        String sql1 = "update jobs set min_salary=10000 where job_id='ST_MAN'";
+        String sql2 = "update jobs set min_salary=5500 where job_id='ST_MAN'";
+        QueryForJobs queryForJobs = QueryForJobs.getInstance();
+        try{
+            conn = Jdbc_util.getConnect();
+            conn.setAutoCommit(false);   // 设置取消自动提交
+            System.out.println(queryForJobs.updata(conn,sql1));
+            queryForJobs.updata(conn,sql2);
+            conn.commit();
+        } catch (Exception e) {
+            e.printStackTrace();
+            conn.rollback();
+        }finally{
+            Jdbc_util.closeConn(conn,null);
         }
     }
 }

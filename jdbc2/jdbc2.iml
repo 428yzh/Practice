@@ -7,9 +7,9 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" scope="RUNTIME" name="mysql-connector-java-8.0.23" level="project" />
     <orderEntry type="library" name="JUnit4" level="project" />
-    <orderEntry type="module" module-name="jdbc2" />
+    <orderEntry type="library" name="commons-dbutils-1.7" level="project" />
+    <orderEntry type="module" module-name="day1" />
     <orderEntry type="module" module-name="Practice" />
   </component>
 </module>

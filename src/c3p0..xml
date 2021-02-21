@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c3p0-config>
+    <name-config name = "helloc3p0">
+<!--        提供连接的四个基本信息-->
+        <property name = "driveClass">com.mysql.cj.jdbc.Driver</property>
+        <property name = "jdbcUrl">jdbc:mysql://3306/myemployees</property>
+        <property name = "User">root</property>
+        <property name = "password">Aa2766132847</property>
+<!--        数据库连接池管理的基本信息  -->
+<!--        当数据库连接池的数量不够，就需要自己去添加连接，这是一次添加的量-->
+        <property name = "acquireIncrement">5</property>
+<!--        初始时候的连接池的大小-->
+        <property name = "initialPoolSize">10</property>
+<!--        最小的连接池大小-->
+        <property name = "minPoolSize">10</property>
+<!--        最大的连接池大小，可以添加到这个大小-->
+        <property name = "maxPoolSize">100</property>
+<!--        维护的最大statement数，可能是一次取出了多个连接吧-->
+        <property name = "maxStatement">50</property>
+    </name-config>
+</c3p0-config>
