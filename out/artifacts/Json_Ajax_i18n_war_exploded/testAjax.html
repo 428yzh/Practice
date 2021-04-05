@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>testAjax</title>
+    <script src="jquery-1.7.2.js"></script>
+</head>
+<body>
+
+<script type="text/javascript">
+    $(function(){
+        $("#ajaxGet_btn").click(function(){
+            $.get("http://localhost:8080/ajaxServlet","action=jqueryAjaxGet",function(res){
+                $("#myDiv").html("get 获取到编号" + res.id + "姓名" + res.name);
+            }, "json")
+        })
+        $("#ajaxPost_btn").click(function(){
+            $.post("http://localhost:8080/ajaxServlet","action=jqueryAjaxPost",function(res){
+                let resJson = JSON.parse(res);
+                $("#myDiv").html("post 获取到编号" + resJson.id + "姓名" + resJson.name);
+            }, "text")
+        })
+        $("#sub_btn").click(function(){
+            alert($("#form").serialize())
+            $.post("http://localhost:8080/ajaxServlet","action=jqueryAjaxSerialize&"+$("#form").serialize(),function(res){
+                let resJson = JSON.parse(res);
+                $("#myDiv").html("get 获取到编号" + resJson.id + "姓名" + resJson.name);
+            }, "text")
+        })
+    })
+</script>
+<input type = "button" id = "ajaxGet_btn" value="ajaxGet"/>
+
+<input type = "button" id = "ajaxPost_btn" value="ajaxPost"/>
+<div id = "myDiv">
+
+</div>
+<table border="1" width="40px" align="center" bgcolor="#a52a2a">
+    <tr valign="top" align="left">
+        <th>1</th>
+        <th>2</th>
+    </tr>
+    <tr valign="middle" align="center">
+        <td>1</td>
+        <td>2</td>
+    </tr>
+
+    <form id = "form">
+        <input name = "name" />
+        <input name = "value" />
+        <input type="button" id = "sub_btn" value = "提交">
+    </form>
+</table>
+</body>
+</html>

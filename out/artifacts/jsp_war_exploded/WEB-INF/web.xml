@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    <servlet>
+        <servlet-name>testFile</servlet-name>
+        <servlet-class>jsp.testFile</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>testFile</servlet-name>
+        <url-pattern>/testFile</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>testFileDownLoad</servlet-name>
+        <servlet-class>jsp.testFileDownLoad</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>testFileDownLoad</servlet-name>
+        <url-pattern>/testFileDownLoad</url-pattern>
+    </servlet-mapping>
+</web-app>
